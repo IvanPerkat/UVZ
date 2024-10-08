@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UralVagonZavod - Configure T-54</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/models-style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/configuration-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <div class="top">
+            <a href="/pages/index.html"><img src="/images/logo/logo-full.png" class="navigation-logo"></a>
+            <div class="navigation-buttons">
+                <a href="/pages/configurations-pages/configure-main.html" class="button-configure button-navigation">Configure</a>
+                <a href="/pages/testdrive.html" class="button-testdrive button-navigation">Test drive</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/pages/index.html">Home</a></li>
+                <li><a href="/pages/index.html#models">Models</a></li>
+                <li><a href="/pages/offers.html">Offers</a></li>
+                <li><a href="/pages/index.html/#actual">Actual</a></li>
+                <li><a href="/pages/contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="model-title-screen">
+        <div class="model-title-info">
+            <div class="model-title-content">
+                <div class="top-item-previw">
+                    <div id="t-54-47" class="top-item-preview-title">
+                        <h1>T-54 obr. 1947.</h1>
+                        <p>1st generation MBT</p>
+                    </div>
+                    <img src="/images/models-images/ussr_t_54_1947.png" alt="T-54 obr. 1947." class="model-title-image">
+                </div>
+                <div class="specifications">
+                    <div class="specs-section armour-specs">
+                        <h2>Armour</h2>
+                        <p>front / side / rear</p>
+                        <div class="specifications-values">
+                            <h3>Hull</h3>
+                            <p>120 / 80 / 45</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Turret</h3>
+                            <p>200 / 125 / 52</p>
+                        </div>
+                    </div>
+                    <div class="specs-section armament-specs">
+                        <h2>Armament</h2>
+                        <p>capacity</p>
+                        <div class="specifications-values">
+                            <h3>100mm D-10T</h3>
+                            <p>34</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>12.7mm DShK</h3>
+                            <p>250</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>7.62mm SGMT</h3>
+                            <p>3500</p>
+                        </div>
+                    </div>
+                    <div class="specs-section mobility-specs">
+                        <h2>Mobility</h2>
+                        <p>km/h</p>
+                        <div class="specifications-values">
+                            <h3>Forward</h3>
+                            <p>51</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Backward</h3>
+                            <p>8</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="openPopup('t-54-47-popup')" class="model-title-button model-title-popup-button">More Info</button>
+                <div class="price-order">
+                    <p>From 110.148,00€</p>
+                    <a href="/pages/buy.html" class="model-title-button model-title-buynow-button">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="t-54-47-popup" class="popup">
+        <div class="popup-content">
+            <h2>More Information</h2>
+            <div class="specifications">
+                <div class="specs-section armour-specs">
+                    <h2>Ammo</h2>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHE</h3>
+                            <p>BR-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphe.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHEBC</h3>
+                            <p>BR-412B</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphebc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCBC</h3>
+                            <p>BR-412D</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcbc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCR</h3>
+                            <p>BR-412P</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcr.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HE</h3>
+                            <p>OF-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-he.png">
+                    </div>
+                </div>
+                <div class="specs-section armament-specs">
+                    <h2>Other</h2>
+                    <div class="specifications-values">
+                        <h3>BDSh</h3>
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="closePopup('t-54-47-popup')" class="popup-close">Close</button>
+        </div>
+    </div>
+    <div class="model-title-screen">
+        <div class="model-title-info">
+            <div class="model-title-content">
+                <div class="top-item-previw">
+                    <div class="top-item-preview-title">
+                        <h1>T-54 obr. 1949.</h1>
+                        <p>1st generation MBT</p>
+                    </div>
+                    <img src="/images/models-images/ussr_t_54_1949.png" alt="T-54 obr. 1949." class="model-title-image">
+                </div>
+                <div class="specifications">
+                    <div class="specs-section armour-specs">
+                        <h2>Armour</h2>
+                        <p>front / side / rear</p>
+                        <div class="specifications-values">
+                            <h3>Hull</h3>
+                            <p>100 / 80 / 45</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Turret</h3>
+                            <p>200 / 125 / 50</p>
+                        </div>
+                    </div>
+                    <div class="specs-section armament-specs">
+                        <h2>Armament</h2>
+                        <p>capacity</p>
+                        <div class="specifications-values">
+                            <h3>100mm D-10T</h3>
+                            <p>34</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>12.7mm DShK</h3>
+                            <p>250</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>7.62mm SGMT</h3>
+                            <p>3500</p>
+                        </div>
+                    </div>
+                    <div class="specs-section mobility-specs">
+                        <h2>Mobility</h2>
+                        <p>km/h</p>
+                        <div class="specifications-values">
+                            <h3>Forward</h3>
+                            <p>51</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Backward</h3>
+                            <p>8</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="openPopup('t-54-49-popup')" class="model-title-button model-title-popup-button">More Info</button>
+                <div class="price-order">
+                    <p>From 110.148,00€</p>
+                    <a href="/pages/buy.html" class="model-title-button model-title-buynow-button">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="t-54-49-popup" class="popup">
+        <div class="popup-content">
+            <h2>More Information</h2>
+            <div class="specifications">
+                <div class="specs-section armour-specs">
+                    <h2>Ammo</h2>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHE</h3>
+                            <p>BR-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphe.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHEBC</h3>
+                            <p>BR-412B</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphebc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCBC</h3>
+                            <p>BR-412D</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcbc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCR</h3>
+                            <p>BR-412P</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcr.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APDS</h3>
+                            <p>3BM-8</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apds.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HE</h3>
+                            <p>OF-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-he.png">
+                    </div>
+                </div>
+                <div class="specs-section armament-specs">
+                    <h2>Other</h2>
+                    <div class="specifications-values">
+                        <h3>BDSh</h3>
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="closePopup('t-54-49-popup')" class="popup-close">Close</button>
+        </div>
+    </div>
+    <div class="model-title-screen">
+        <div class="model-title-info">
+            <div class="model-title-content">
+                <div class="top-item-previw">
+                    <div class="top-item-preview-title">
+                        <h1>T-54 obr. 1951.</h1>
+                        <p>1st generation MBT</p>
+                    </div>
+                    <img src="/images/models-images/ussr_t_54_1951.png" alt="T-54 obr. 1951." class="model-title-image">
+                </div>
+                <div class="specifications">
+                    <div class="specs-section armour-specs">
+                        <h2>Armour</h2>
+                        <p>front / side / rear</p>
+                        <div class="specifications-values">
+                            <h3>Hull</h3>
+                            <p>100 / 80 / 45</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Turret</h3>
+                            <p>200 / 160 / 65</p>
+                        </div>
+                    </div>
+                    <div class="specs-section armament-specs">
+                        <h2>Armament</h2>
+                        <p>capacity</p>
+                        <div class="specifications-values">
+                            <h3>100mm D-10T</h3>
+                            <p>34</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>12.7mm DShK</h3>
+                            <p>250</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>7.62mm SGMT</h3>
+                            <p>3500</p>
+                        </div>
+                    </div>
+                    <div class="specs-section mobility-specs">
+                        <h2>Mobility</h2>
+                        <p>km/h</p>
+                        <div class="specifications-values">
+                            <h3>Forward</h3>
+                            <p>51</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Backward</h3>
+                            <p>8</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="openPopup('t-54-51-popup')" class="model-title-button model-title-popup-button">More Info</button>
+                <div class="price-order">
+                    <p>From 110.148,00€</p>
+                    <a href="/pages/buy.html" class="model-title-button model-title-buynow-button">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="t-54-51-popup" class="popup">
+        <div class="popup-content">
+            <h2>More Information</h2>
+            <div class="specifications">
+                <div class="specs-section armour-specs">
+                    <h2>Ammo</h2>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHE</h3>
+                            <p>BR-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphe.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHEBC</h3>
+                            <p>BR-412B</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphebc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCBC</h3>
+                            <p>BR-412D</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcbc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCR</h3>
+                            <p>BR-412P</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcr.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APDS</h3>
+                            <p>3BM-8</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apds.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HEATFS</h3>
+                            <p>3BK-5</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-heatfs.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HE</h3>
+                            <p>OF-412</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-he.png">
+                    </div>
+                </div>
+                <div class="specs-section armament-specs">
+                    <h2>Other</h2>
+                    <div class="specifications-values">
+                        <h3>BDSh</h3>
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="closePopup('t-54-51-popup')" class="popup-close">Close</button>
+        </div>
+    </div>
+    <div class="model-title-screen">
+        <div class="model-title-info">
+            <div class="model-title-content">
+                <div class="top-item-previw">
+                    <div class="top-item-preview-title">
+                        <h1>SU-122-54</h1>
+                        <p>TD</p>
+                    </div>
+                    <img src="/images/models-images/ussr_su_122_54.png" alt="SU-122-54" class="model-title-image">
+                </div>
+                <div class="specifications">
+                    <div class="specs-section armour-specs">
+                        <h2>Armour</h2>
+                        <p>front / side / rear</p>
+                        <div class="specifications-values">
+                            <h3>Hull</h3>
+                            <p>100 / 80 / 45</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Turret</h3>
+                            <p>100 / 80 / 30</p>
+                        </div>
+                    </div>
+                    <div class="specs-section armament-specs">
+                        <h2>Armament</h2>
+                        <p>capacity</p>
+                        <div class="specifications-values">
+                            <h3>122mm D-49</h3>
+                            <p>35</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>14.5mm KPVT</h3>
+                            <p>300</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>14.5mm KPVT</h3>
+                            <p>300</p>
+                        </div>
+                    </div>
+                    <div class="specs-section mobility-specs">
+                        <h2>Mobility</h2>
+                        <p>km/h</p>
+                        <div class="specifications-values">
+                            <h3>Forward</h3>
+                            <p>51</p>
+                        </div>
+                        <div class="specifications-values">
+                            <h3>Backward</h3>
+                            <p>8</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="openPopup('su-122-54-popup')" class="model-title-button model-title-popup-button">More Info</button>
+                <div class="price-order">
+                    <p>From 110.148,00€</p>
+                    <a href="/pages/buy.html" class="model-title-button model-title-buynow-button">Confirm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="su-122-54-popup" class="popup">
+        <div class="popup-content">
+            <h2>More Information</h2>
+            <div class="specifications">
+                <div class="specs-section armour-specs">
+                    <h2>Ammo</h2>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHE</h3>
+                            <p>BR-471</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphe.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APHEBC</h3>
+                            <p>BR-471B</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-aphebc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APCBC</h3>
+                            <p>BR-471D</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apcbc.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>APDS</h3>
+                            <p>3BM-7</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-apds.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HEATFS</h3>
+                            <p>3BK-10</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-heatfs.png">
+                    </div>
+                    <div class="specifications-values">
+                        <div class="ammo-info">
+                            <h3>HE</h3>
+                            <p>OF-471</p>
+                        </div>
+                        <img src="/images/icons/icons-ammo/icon-he.png">
+                    </div>
+                </div>
+                <div class="specs-section armament-specs">
+                    <h2>Other</h2>
+                    <div class="specifications-values">
+                        <h3>BDSh</h3>
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="closePopup('su-122-54-popup')" class="popup-close">Close</button>
+        </div>
+    </div>
+    <div id="popup-overlay" class="popup-overlay"></div>
+    <footer>
+        <div class="social">
+            <a href="https://twitter.com/uvznews"><img src="/images/social-icons/x.png"></a>
+            <a href="https://www.instagram.com/uvznews/"><img src="/images/social-icons/instagram.png"></a>
+            <a href="https://www.youtube.com/c/uvznews"><img src="/images/social-icons/youtube.png"></a>
+        </div>
+        <ul>
+            <li><a href="/pages/index.html">Home</a></li>
+            <li><a href="/pages/index.html#models">Models</a></li>
+            <li><a href="/pages/offers.html">Offers</a></li>
+            <li><a href="/pages/index.html/#actual">Actual</a></li>
+            <li><a href="/pages/contacts.html">Contacts</a></li>
+        </ul>
+        <p>&copy; Uralvagonzavod 2024.</p>
+    </footer>
+    <script src="/scripts/appear.js"></script>
+</body>
+</html>
