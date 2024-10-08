@@ -1,0 +1,69 @@
+.model-title-screen{
+    background: linear-gradient(90deg, var(--neka_siva), var(--neka_bila) 100%);
+    min-height: 40%;
+}
+
+.model-title-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.model-title-content h1{
+    font-size: 4em;
+}
+
+.model-title-content{
+    padding: 2em 15em;
+}
+
+.model-title-buttons{
+    display: flex;
+    gap: 1em;
+    padding: 1em 0;
+}
+
+.model-title-button{
+    width: 9em;
+    color: var(--neka_crna);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    padding: .6em 2em;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.model-title-configure-button{
+    border: 2px solid var(--neka_crna);
+}
+
+.model-title-configure-button:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.model-title-buynow-button{
+    background-color: var(--neka_zelena);    
+}
+
+.model-title-buynow-button:hover{
+    background-color: rgba(69, 236, 177, .7);
+}
+
+.model-title-image{
+    transform: scale(1.1);
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.similiar-models{
+    margin-bottom: 5em;
+}
+
+.similiar-models h2{
+    text-align: center;
+    font-size: 3em;
+    margin: 2% auto;
+}
