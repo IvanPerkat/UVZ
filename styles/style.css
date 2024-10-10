@@ -598,6 +598,7 @@ footer ul li a:hover{
     margin: 20px auto;
     max-width: 800px;
     text-align: center;
+    flex: 1;
 }
 
 .limited-time-image {
@@ -605,6 +606,8 @@ footer ul li a:hover{
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
 }
 
 .offer-text h2 {
@@ -744,4 +747,20 @@ footer ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.offer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.citation {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 1.2em;
+    color: var(--neka_bila);
+    padding: 10px;
+    border-radius: 5px;
 }

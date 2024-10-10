@@ -32,23 +32,25 @@
             </ul>
         </nav>
         <div class="header-background">
-            <div class="limited-time-offer">
-                <img src="/images/models-images/ussr_t_80bvm.png" alt="Limited Time Product" class="limited-time-image">
-                <div class="offer-text">
-                    <h2>Limited Time Offer: T-80BVM</h2>
-                    <p>Get this exclusive product for a limited time!</p>
-                    <div id="countdown" class="countdown-timer">
-                        <p>Offer ends in:</p>
-                        <div>
-                            <span id="days">00</span> Days
-                            <span id="hours">00</span> Hours
-                            <span id="minutes">00</span> Minutes
-                            <span id="seconds">00</span> Seconds
+            <div class="offer-container">
+                <div class="limited-time-offer">
+                    <img src="/images/models-images/ussr_t_80bvm.png" alt="Limited Time Product" class="limited-time-image">
+                    <div class="offer-text">
+                        <h2>Limited Time Offer: T-80BVM</h2>
+                        <p>Get this exclusive product for a limited time!</p>
+                        <div id="countdown" class="countdown-timer">
+                            <p>Offer ends in:</p>
+                            <div>
+                                <span id="days">00</span> Days
+                                <span id="hours">00</span> Hours
+                                <span id="minutes">00</span> Minutes
+                                <span id="seconds">00</span> Seconds
+                            </div>
                         </div>
+                        <a href="./models-pages/t-80.html" class="product-button">View Product</a>
                     </div>
-                    <a href="./models-pages/t-80.html" class="product-button">View Product</a>
                 </div>
-            </div>
+            </div>            
         </div>
     </header>    
     <script src="/scripts/limited-time.js"></script>
@@ -174,6 +176,20 @@
             <li><a href="#actual">Actual</a></li>
             <li><a href="./contacts.html">Contacts</a></li>
         </ul>
+        <div id="citation" class="citation"></div>
+        <script>
+            let citats = [
+                "From T-34 to T-90, Russian tanks redefine battle",
+                "Uralvagonzavod: a symbol of armored engineering excellence",
+                "A skilled crew turns a tank into an unstoppable force",
+                "Tanks embody military strength and national resolve",
+                "Decades of innovation define Uralvagonzavod’s legacy"
+            ];
+    
+            let random = Math.floor(Math.random() * citats.length);
+    
+            document.getElementById('citation').innerHTML = citats[random];
+        </script>
         <p>&copy; Uralvagonzavod 2024.</p>
     </footer>
 </body>
