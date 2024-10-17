@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,18 @@
     <link rel="stylesheet" type="text/css" href="/styles/models-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header id="home">
         <div class="top">
             <a href="./index.html"><img src="/images/logo/logo-full.png" class="navigation-logo"></a>
             <div class="navigation-buttons">
-                <a href="./configurations-pages/configure-main.html" class="button-configure button-navigation">Configure</a>
+                <a href="./configurations-pages/configure-main.html"
+                    class="button-configure button-navigation">Configure</a>
                 <a href="" class="button-testdrive button-navigation">Test drive</a>
             </div>
         </div>
@@ -34,14 +39,27 @@
     <div class="model-title-screen">
         <div class="model-title-info">
             <div class="model-title-content">
-                <h1>T-55A</h1>
+                <h1>T-55</h1>
                 <div class="model-title-buttons">
-                    <a href="/pages/configurations-pages/configure-t-55.html" class="model-title-button model-title-configure-button">Configure</a>
+                    <a href="/pages/configurations-pages/configure-t-55.html"
+                        class="model-title-button model-title-configure-button">Configure</a>
                     <a href="/pages/buy.html" class="model-title-button model-title-buynow-button">Buy now</a>
                 </div>
                 <p>1st generation MBT</p>
             </div>
-            <img src="/images/models-images/ussr_t_55a.png" alt="T-55A" class="model-title-image">
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <img src="/images/models-images/ussr_t_55a.png">
+                </div>
+                <div class="slides fade">
+                    <img src="/images/models-images/ussr_t_55_am.png">
+                </div>
+                <div class="slides fade">
+                    <img src="/images/models-images/ussr_t_55_amd_1.png">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </div>
     </div>
     <div class="similiar-models">
@@ -56,7 +74,8 @@
                         <img src="/images/models-images/ussr_t_54_1947.png" alt="T-54 obr. 1947." class="item-preview">
                         <div class="appear-buttons">
                             <a href="/pages/models-pages/t-54.html" class="button-more">More</a>
-                            <a href="/pages/configurations-pages/configure-t-54.html" class="buttoon-configure-2">Configure</a>
+                            <a href="/pages/configurations-pages/configure-t-54.html"
+                                class="buttoon-configure-2">Configure</a>
                         </div>
                     </div>
                 </a>
@@ -68,7 +87,8 @@
                         <img src="/images/models-images/ussr_t_62.png" alt="T-62" class="item-preview">
                         <div class="appear-buttons">
                             <a href="/pages/models-pages/t-62.html" class="button-more">More</a>
-                            <a href="/pages/configurations-pages/configure-t-62.html" class="buttoon-configure-2">Configure</a>
+                            <a href="/pages/configurations-pages/configure-t-62.html"
+                                class="buttoon-configure-2">Configure</a>
                         </div>
                     </div>
                 </a>
@@ -90,5 +110,7 @@
         </ul>
         <p>&copy; Uralvagonzavod 2024.</p>
     </footer>
+    <script src="/scripts/slideshow.js"></script>
 </body>
+
 </html>

@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --neka_crna: #313131;
     --neka_siva: #dfdfdf;
     --neka_bila: #f2f2f2;
@@ -13,17 +13,18 @@
     --neka_crvena: #f44336;
 }
 
-html, body{
+html,
+body {
     height: 100%;
     background-color: var(--neka_bila);
     font-family: "Barlow", sans-serif;
 }
 
-header{
+header {
     width: 100%;
 }
 
-.top{
+.top {
     background-color: var(--neka_bila);
     display: flex;
     align-items: center;
@@ -31,14 +32,14 @@ header{
     border-bottom: 1px solid #000;
 }
 
-.navigation-logo{
+.navigation-logo {
     max-width: 100%;
     height: auto;
     margin: 1rem;
     margin-left: 4%;
 }
 
-nav{
+nav {
     background-color: var(--neka_siva);
     display: flex;
     flex-direction: row;
@@ -48,7 +49,7 @@ nav{
     border-bottom: 1px solid var(--neka_crna);
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,24 +58,24 @@ nav ul{
     margin-left: 3%;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--neka_crna);
     text-decoration: none;
     font-size: 1.2em;
     opacity: .7;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     border-bottom: 3px solid var(--neka_crna);
     opacity: 1;
     padding-bottom: 1.1em;
 }
 
-.navigation-buttons{
+.navigation-buttons {
     display: flex;
     flex: none;
     gap: 1rem;
@@ -84,7 +85,7 @@ nav ul li a:hover{
     margin-right: 2%;
 }
 
-.button-navigation{
+.button-navigation {
     width: 9em;
     text-decoration: none;
     text-align: center;
@@ -93,31 +94,31 @@ nav ul li a:hover{
     transition: all 300ms ease;
 }
 
-.button-configure{
+.button-configure {
     color: var(--neka_crna);
     background-color: var(--neka_zelena);
 }
 
-.button-configure:hover{
+.button-configure:hover {
     background-color: rgba(69, 236, 177, .7)
 }
 
-.button-testdrive{
+.button-testdrive {
     color: var(--neka_siva);
     background-color: #000;
 }
 
-.button-testdrive:hover{
+.button-testdrive:hover {
     background-color: rgba(0, 0, 0, .8);
 }
 
-.home-image{
+.home-image {
     opacity: .95;
     max-width: 100%;
     height: auto;
 }
 
-.over-text{
+.over-text {
     color: var(--neka_bila);
     font-size: 2em;
     text-align: center;
@@ -127,36 +128,38 @@ nav ul li a:hover{
     right: 17%;
 }
 
-.models-section-wrap{
+.models-section-wrap {
     display: flex;
     flex-direction: column;
 }
 
-section h2{
+section h2 {
     text-align: center;
     font-size: 3em;
     padding: 1.5em 0;
 }
 
-.models-section-container-1, .models-section-container-2{
+.models-section-container-1,
+.models-section-container-2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2em;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.models-section-container-1 a, .models-section-container-2 a{
+.models-section-container-1 a,
+.models-section-container-2 a {
     color: var(--neka_crna);
     text-decoration: none;
     font-size: 1.3em;
 }
 
-.hidden{
+.hidden {
     visibility: hidden;
 }
 
-.models-section-container-item{
+.models-section-container-item {
     width: 26em;
     height: auto;
     text-align: center;
@@ -164,20 +167,20 @@ section h2{
     transition: all 200ms ease;
 }
 
-.models-section-container-item span{
+.models-section-container-item span {
     font-size: .85em;
     opacity: .7;
 }
 
-.models-section-container-item:hover{
+.models-section-container-item:hover {
     background-color: var(--neka_siva);
 }
 
-.models-section-container-item:hover .appear-buttons{
+.models-section-container-item:hover .appear-buttons {
     opacity: 1;
 }
 
-.item-class{
+.item-class {
     width: 15%;
     height: auto;
     color: var(--neka_siva);
@@ -189,12 +192,12 @@ section h2{
     margin: .5rem auto;
 }
 
-.item-preview{
+.item-preview {
     max-width: 90%;
     height: 90%;
 }
 
-.appear-buttons{
+.appear-buttons {
     font-size: .8em;
     display: flex;
     flex-direction: column;
@@ -204,7 +207,8 @@ section h2{
     transition: all 300ms;
 }
 
-.button-more, .buttoon-configure-2{
+.button-more,
+.buttoon-configure-2 {
     width: 95%;
     text-align: left;
     background-color: var(--neka_bila);
@@ -212,20 +216,21 @@ section h2{
     box-shadow: 0 0 1px 1px var(--neka_siva);
 }
 
-.button-more:hover, .buttoon-configure-2:hover{
+.button-more:hover,
+.buttoon-configure-2:hover {
     background-color: var(--neka_siva);
 }
 
-.actual-section{
+.actual-section {
     margin-bottom: 5rem;
 }
 
-.actual-section-wrap{
+.actual-section-wrap {
     display: flex;
     flex-direction: column;
 }
 
-.actual-section-container{
+.actual-section-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,84 +238,85 @@ section h2{
     flex-wrap: wrap;
 }
 
-.actual-section-container-wrap{
+.actual-section-container-wrap {
     max-width: 33%;
     height: auto;
     background-color: var(--neka_bila);
 }
 
-.actual-section-container-wrap:hover .actual-section-container-item p{
+.actual-section-container-wrap:hover .actual-section-container-item p {
     text-decoration: underline;
 }
 
-.actual-section-container-item{
+.actual-section-container-item {
     width: 26em;
     height: auto;
     text-align: center;
     transition: all 200ms ease;
 }
 
-.actual-preview{
+.actual-preview {
     display: flex;
     max-width: 100%;
     height: 16em;
     object-fit: cover;
 }
 
-.actual-section-container-item h3, .actual-section-container-item p{
+.actual-section-container-item h3,
+.actual-section-container-item p {
     color: var(--neka_crna);
     text-align: left;
     margin: 0 4%;
     margin-bottom: 6%;
 }
 
-.actual-section-container-item h3{
+.actual-section-container-item h3 {
     font-size: 1.2em;
     margin-top: 3%;
     margin-bottom: 6%;
 }
 
-.actual-section-container-item p{
+.actual-section-container-item p {
     font-size: .9em;
 }
 
-.actual-section-container a{
+.actual-section-container a {
     color: var(--neka_crna);
     text-decoration: none;
 }
 
-footer{
+footer {
     background-color: var(--neka_crna);
 }
 
-.social{
+.social {
     display: flex;
     align-items: center;
     gap: 1em;
     padding: 2rem 2rem;
 }
 
-.social a{
+.social a {
     width: 2%;
 }
 
-.social a img{
+.social a img {
     width: 100%;
 }
 
-footer p{
+footer p {
     color: var(--neka_bila);
     padding: 2em 2em;
 }
 
-.offers{
+.offers {
     display: flex;
     flex-direction: column;
     gap: 3em;
     margin: 3rem 2rem;
 }
 
-.offers-row{
+.offers-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -319,26 +325,27 @@ footer p{
     margin: 1rem 0;
 }
 
-.offers-row a{
+.offers-row a {
     color: var(--neka_crna);
     text-decoration: none;
     transition: all 300ms ease;
 }
 
-.offers-row a:hover{
+.offers-row a:hover {
     transform: scale(1.1);
 }
 
-.offers-item{
+.offers-item {
     text-align: center;
 }
 
-.offers-item-images{
+.offers-item-images {
     max-width: 20em;
     height: auto;
 }
 
-.choose-section-1, .choose-section-2{
+.choose-section-1,
+.choose-section-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -346,11 +353,12 @@ footer p{
     margin: 2rem 0;
 }
 
-.choose-section-1 a, .choose-section-2 a{
+.choose-section-1 a,
+.choose-section-2 a {
     text-decoration: none;
 }
 
-.models-container{
+.models-container {
     color: var(--neka_crna);
     background-color: var(--neka_bila);
     display: flex;
@@ -361,26 +369,26 @@ footer p{
     transition: all 300ms ease;
 }
 
-.models-container h3{
+.models-container h3 {
     font-size: 2em;
 }
 
-.models-container:hover{
+.models-container:hover {
     border: 1px solid var(--neka_crna);
 }
 
-.models-container:hover .configuration-images{
+.models-container:hover .configuration-images {
     transform: scale(1.1);
 }
 
-.configuration-images{
+.configuration-images {
     max-width: 25em;
     height: auto;
     position: relative;
     transition: all 300ms ease;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     font-size: 1.1em;
     display: flex;
@@ -391,19 +399,19 @@ footer ul{
     margin: 2rem 2rem;
 }
 
-footer ul li a{
+footer ul li a {
     color: var(--neka_bila);
     text-decoration: none;
     opacity: .8;
     transition: 300ms all ease;
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
     opacity: 1;
 }
 
 
-.compleated-order{
+.compleated-order {
     max-width: 50%;
     display: flex;
     flex-direction: column;
@@ -413,15 +421,15 @@ footer ul li a:hover{
     gap: 2em;
 }
 
-.compleated-order h2{
+.compleated-order h2 {
     font-size: 5em;
 }
 
-.checkmark-icon{
+.checkmark-icon {
     max-width: 15%;
 }
 
-.button-backhome{
+.button-backhome {
     width: 9em;
     color: var(--neka_siva);
     background-color: var(--neka_crna);
@@ -433,11 +441,11 @@ footer ul li a:hover{
     transition: all 300ms ease;
 }
 
-.button-backhome:hover{
+.button-backhome:hover {
     background-color: rgba(0, 0, 0, .8);
 }
 
-.contacts{
+.contacts {
     width: 100%;
 }
 
@@ -450,94 +458,96 @@ footer ul li a:hover{
     text-align: center;
 }
 
-@media only screen and (max-width: 1200px){
-    .navigation-buttons{
+@media only screen and (max-width: 1200px) {
+    .navigation-buttons {
         gap: 0.5rem;
     }
 
-    .button-navigation{
+    .button-navigation {
         width: 7em;
         padding: .5em 1em;
     }
 
-    nav ul{
+    nav ul {
         gap: 2rem;
     }
 
-    .models-section-container-item{
+    .models-section-container-item {
         width: 22em;
     }
 
-    .actual-section-container-item{
+    .actual-section-container-item {
         width: 22em;
     }
 }
 
-@media (max-width: 800px){
-    nav{
+@media (max-width: 800px) {
+    nav {
         flex-direction: column;
     }
 
-    nav ul{
+    nav ul {
         flex-direction: column;
         margin: 0;
     }
 
-    .navigation-buttons{
+    .navigation-buttons {
         flex-direction: column;
         margin: 1rem 0;
     }
 
-    .models-section-container-1, .models-section-container-2{
+    .models-section-container-1,
+    .models-section-container-2 {
         flex-direction: column;
         gap: 1.5em;
     }
 
-    .actual-section-container{
+    .actual-section-container {
         flex-direction: column;
         gap: 1.5em;
     }
 
-    .over-text{
+    .over-text {
         font-size: 1.5em;
         top: 50%;
     }
 
-    .navigation-logo{
+    .navigation-logo {
         margin: 0 auto;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     nav ul li a {
         font-size: 1em;
     }
 
-    .models-section-container-item{
+    .models-section-container-item {
         width: 18em;
     }
 
-    .actual-section-container-item{
+    .actual-section-container-item {
         width: 18em;
     }
 
-    .button-navigation{
+    .button-navigation {
         width: 100%;
         padding: .5em;
     }
 
-    .navigation-buttons{
+    .navigation-buttons {
         gap: 0.2rem;
     }
 
-    .choose-section-1, .choose-section-2{
+    .choose-section-1,
+    .choose-section-2 {
         flex-direction: column;
         gap: 1em;
     }
 }
 
 .cookie-banner {
-    display: none; 
+    display: none;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -625,7 +635,7 @@ footer ul li a:hover{
     background: linear-gradient(135deg, #dfdfdf, #45ecb1);
     background-size: cover;
     background-position: center;
-    height: 600px; 
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -651,7 +661,7 @@ footer ul li a:hover{
 .offer-text h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
 .offer-text p {
@@ -687,9 +697,9 @@ footer ul li a:hover{
     margin-top: 15px;
     padding: 12px 20px;
     background-color: #ffcc00;
-    color: #333; 
+    color: #333;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     font-size: 1.2em;
     transition: background-color 0.3s;
 }
@@ -707,15 +717,19 @@ footer ul li a:hover{
     margin: auto;
     margin-top: 2rem;
 }
+
 .contact-form h2 {
     text-align: center;
     margin-bottom: 1em;
 }
+
 .contact-form label {
     display: block;
     margin-bottom: 0.5em;
 }
-.contact-form input, .contact-form textarea {
+
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
@@ -723,26 +737,33 @@ footer ul li a:hover{
     border-radius: 4px;
     background-color: #f2f2f2;
 }
+
 .contact-form button {
     background-color: #45ecb1;
-    color: #f2f2f2; 
+    color: #f2f2f2;
     border: none;
     padding: 0.5em;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
 }
+
 .contact-form button:hover {
     background-color: rgba(69, 236, 177, 0.7);
 }
-.radio-group, .checkbox-group {
+
+.radio-group,
+.checkbox-group {
     margin-bottom: 1em;
     text-align: center;
 }
-.radio-group label, .checkbox-group label {
+
+.radio-group label,
+.checkbox-group label {
     display: inline-block;
     margin: 0.5em 1em;
 }
+
 .checkbox-group {
     display: flex;
     justify-content: center;
