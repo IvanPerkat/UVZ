@@ -77,6 +77,15 @@ nav {
     border-bottom: 1px solid var(--neka_crna);
 }
 
+nav a {
+    color: var(--neka_crna);
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: 0.7;
+    padding: 15px; 
+    transition: color 0.3s ease, opacity 0.3s ease; 
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -88,6 +97,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    position: relative;
 }
 
 nav ul li a {
@@ -97,7 +107,7 @@ nav ul li a {
     opacity: .7;
 }
 
-nav ul li a:hover {
+nav ul li a:not(.models-nav):hover {
     border-bottom: 3px solid var(--neka_crna);
     opacity: 1;
     padding-bottom: 1.1em;
@@ -805,4 +815,39 @@ footer ul li a:hover {
     color: var(--neka_bila);
     padding: 10px;
     border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--neka_bila);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    width: 150px; 
+}
+
+.dropdown a {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 10px; 
+    color: var(--neka_crna);
+    opacity: 0.7;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none; 
+}
+
+.dropdown a:hover {
+    opacity: 1;
 }
